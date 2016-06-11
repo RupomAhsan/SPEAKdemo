@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SPEAK.Entity")]
+[assembly: AssemblyTitle("SPEAK.Entities")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SPEAK.Entity")]
+[assembly: AssemblyProduct("SPEAK.Entities")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9726e49e-5dd0-44b7-b304-f8753b815ed5")]
+[assembly: Guid("69779fed-ba5a-4893-9ff5-46af1023c2e6")]
 
 // Version information for an assembly consists of the following four values:
 //
