@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>69779fed-ba5a-4893-9ff5-46af1023c2e6</ProjectGuid>
+    <ProjectGuid>{69779FED-BA5A-4893-9FF5-46AF1023C2E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SPEAK.Entities</RootNamespace>
@@ -30,25 +30,45 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Entity\Error.cs" />
+    <Compile Include="Entity\UserRole.cs" />
+    <Compile Include="Entity\User.cs" />
+    <Compile Include="Entity\Role.cs" />
+    <Compile Include="Entity\Employee.cs" />
+    <Compile Include="Entity\Department.cs" />
+    <Compile Include="Entity\Rating.cs" />
+    <Compile Include="Entity\Comment.cs" />
+    <Compile Include="Entity\QuestionOther.cs" />
+    <Compile Include="Entity\QuestionAssign.cs" />
+    <Compile Include="Entity\Question.cs" />
+    <Compile Include="Entity\SectionAssign.cs" />
+    <Compile Include="Entity\Survey.cs" />
+    <Compile Include="Entity\Section.cs" />
+    <Compile Include="Entity\TotalGender.cs" />
+    <Compile Include="Entity\TotalJoblevel.cs" />
+    <Compile Include="Entity\TotalNationality.cs" />
+    <Compile Include="Entity\TotalServicelength.cs" />
+    <Compile Include="Entity\Servicelength.cs" />
+    <Compile Include="Entity\Joblevel.cs" />
+    <Compile Include="Entity\Gender.cs" />
+    <Compile Include="Entity\Nationality.cs" />
+    <Compile Include="Entity\Language.cs" />
+    <Compile Include="Entity\Location.cs" />
+    <Compile Include="Entity\Country.cs" />
+    <Compile Include="IEntityBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
@@ -57,5 +77,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
- </Project>
+</Project>

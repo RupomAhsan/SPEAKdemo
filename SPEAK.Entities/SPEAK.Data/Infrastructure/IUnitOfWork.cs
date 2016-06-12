@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SPEAK.Entities
+namespace SPEAK.Data.Infrastructure
 {
-    public class Class1
+    public interface IUnitOfWork
     {
+        void Commit();
     }
 }
