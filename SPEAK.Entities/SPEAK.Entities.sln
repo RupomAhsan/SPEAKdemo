@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPEAK.Entities", "SPEAK.Ent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPEAK.Data", "SPEAK.Data\SPEAK.Data.csproj", "{DD8F6C7A-FE46-4021-A03E-F0056C8B2AC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPEAK.Services", "SPEAK.Services\SPEAK.Services.csproj", "{00A8574D-DE5D-4549-BDED-A9774F1C2B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPEAK.Web", "SPEAK.Web\SPEAK.Web.csproj", "{52B00C38-F5E1-45F9-8731-BFE73F9B33EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{DD8F6C7A-FE46-4021-A03E-F0056C8B2AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD8F6C7A-FE46-4021-A03E-F0056C8B2AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD8F6C7A-FE46-4021-A03E-F0056C8B2AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A8574D-DE5D-4549-BDED-A9774F1C2B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A8574D-DE5D-4549-BDED-A9774F1C2B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A8574D-DE5D-4549-BDED-A9774F1C2B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A8574D-DE5D-4549-BDED-A9774F1C2B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B00C38-F5E1-45F9-8731-BFE73F9B33EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B00C38-F5E1-45F9-8731-BFE73F9B33EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B00C38-F5E1-45F9-8731-BFE73F9B33EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B00C38-F5E1-45F9-8731-BFE73F9B33EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

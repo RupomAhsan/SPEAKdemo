@@ -74,6 +74,7 @@
     <Compile Include="Configurations\UserRoleConfig.cs" />
     <Compile Include="Configurations\UserConfig.cs" />
     <Compile Include="Configurations\RoleConfig.cs" />
+    <Compile Include="Extensions\UserExtensions.cs" />
     <Compile Include="Infrastructure\DbFactory.cs" />
     <Compile Include="Infrastructure\Disposable.cs" />
     <Compile Include="Infrastructure\IDbFactory.cs" />

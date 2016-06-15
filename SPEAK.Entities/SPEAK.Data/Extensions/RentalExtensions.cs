@@ -1,5 +1,5 @@
 ﻿using SPEAK.Data.Repositories;
-using HomeCinema.Entities;
+using SPEAK.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
